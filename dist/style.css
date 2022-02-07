@@ -1,0 +1,92 @@
+body {
+  background-image : url("https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+
+}
+#heading {
+  text-align: center;
+  color : red;
+}
+.Loc {
+  color : black;
+  position : relative;
+  width : 178px;
+  height : 159px;
+  background-color : #255B;
+  border : 5px solid #255B;
+  left: 250px;
+  top : 100px
+}
+ 
+div.R {
+  color : #f89a03;
+background-color: #255B;
+  width: 600px;
+ border: 3px solid #100D;  
+position : relative;
+ left : 50px;
+top : 140px;
+}
+
+
+div.V2VV {
+  color : #f89a03;
+background-color: #255B;
+  width: 600px;
+ border: 3px solid #100D;  
+position : relative;
+ left : 50px;
+top : 400px;
+}
+
+div.N {
+  color : #f89a03;
+  background-color: #255B;
+  width: 600px;
+ border: 3px solid #100D;
+position : relative;
+ left : 710px;
+top : -260px;
+}
+
+div.SN {
+  color : #f89a03;
+  background-color: #255B;
+  width: 600px;
+ border: 3px solid #100D;
+position : relative;
+ left : 50px;
+top : 500px;
+}
+
+div.EM {
+  color : #f89a03;
+  background-color: #255B;
+  width: 355px;
+  height: 450px;
+ border: 3px solid #100D;
+position : relative;
+ left : 900px;
+top : -2445px;
+}
+
+
+div.TS {
+  color : #f89a03;
+background-color: #255B;  
+position : relative;
+left : -200px;
+top : 2000px;
+border: 3px solid #100D;
+width: 600px;
+}
+canvas{
+  width: 350px;
+  height:200px;
+  border:2px solid #c3c3c3;
+} 
+.reset{
+  left : -740px;
+  position : relative;
+  top :  -5400px;
+  border : 10px solid #255B;
+}

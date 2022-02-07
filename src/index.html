@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<title>
+<p>SSSA</p>
+</title>
+
+<head>
+<h1 id="heading"> SAFETY AND SECURITY SYSTEM TO AUTOMOBILES 2.0</h1>
+<a href="https://drive.google.com/file/d/1-9_oPAzX6-elKoNEpOVKALxhjUIqZMWD/view?usp=sharing"><h3 id="heading"> USER MANUAL</a> 
+</head>
+<body>
+  
+<div class="Loc">
+    <h3>Enter the Vehicle's location</h3>
+<input type="text" id="location">
+<p>
+<input type="button" id="location" value="upload location coordinates" onclick= "location1()">
+</p>
+</div>
+<div class="R">
+<p1>
+<h1>RADAR SYSTEM</h1>
+<p>
+  <p>If Radar is front give inpuut "1" else give the input "-1" </p>
+  <input type="text" id="radar">  
+</p>
+<p>
+  <p>Feed of front Radar</p>
+<input type="text" id="ar">
+</p>
+<p>
+<input type="text" id="ar1"> Feed of Radar1
+</p>
+
+<p>
+<input type="text" id="ar2"> Feed of Radar2
+ </p>
+<p>
+<input type="text" id="ar3"> Feed of Radar3
+</p>
+<p>
+<input type="text" id="ar4"> Feed of Radar4
+</p>
+<input type="button" value=" upload values " onclick="RadarSystem()"> 
+<p>
+<canvas id="radarDisp" ><h1></h1></canvas>
+</p>
+</p1>
+</div>
+<p2>
+<div class="V2VV">
+  <h1>VEHICLE TO VEHICLE COMMUNICATION</h1>
+  <p> Feed of Vehicle's speed</p>
+<input type="text" id="sp1">
+</p>
+<p>
+  <p>Feed of near by vehicle's speed</p>
+<input type="text" id="sp2"> 
+</p>
+<p>
+<input type="text" id="L"> Feed of number of lanes
+</p>
+<p>
+<input type="text" id="VIB"> Feed of vibration sensor
+</p>
+<input type="button" value=" upload values " onclick="V2V()"> 
+<p>
+<canvas id="V2V" ><h1></h1></canvas>
+</p>
+</div>
+</p2>
+
+<p3>
+<div class="N">
+  <h1>NOTIFICATION BOX</h1>
+  <p>
+<input type="text" id="N">  Notification
+
+<input type="button" value=" upload values " onclick="Notification()">
+</p>
+<p>
+<canvas id="NR"> </canvas>
+</p>
+</div>
+</p3>
+<p4>  
+<div class="SN">
+  <h1>SECONDARY NOTIFICATION BOX</h1>
+<p>
+<input type="button" value=" upload values " onclick="SNotification()"> <h5> this is for the better understanding of secondary notification else can be taken directly</h5>
+</p>
+</p4>
+<p5>
+<canvas id="SN"> </canvas>
+  <h1>CONTROL ROOM</h1>
+<canvas id="CR"> </canvas> 
+<p>
+<input type="text" id= "feedd"> 
+</p>
+<p> 
+<input type= "button" value="send feed" onclick="feed()">
+</p5>
+</div>
+<p6>
+<div class="EM">
+  <h1>EMERGENCY VEHICLE FILLUP</h1>
+<p>
+<canvas id="EMM"> </canvas>
+</p>
+<p>
+<input type="text" id="feeddd">
+</p>
+<p>
+<input type= "button" value="send feed" onclick="feed()">
+</p>
+</p6>
+<p>
+<div class="TS">
+    <h1>TEST CASE CHECK BOX</h1>
+<input id="input" type="text">
+<button onclick="TestCase()"> Apply test cases</button>  mention the test case number
+</p>
+<canvas id="display"> </canvas>
+</div>
+</p6>
+<p7>
+<input type="button" class= "reset" value=" Reset screens " onclick="refresh()">
+</p7>
+</body>
+</html>
